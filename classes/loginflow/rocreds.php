@@ -141,7 +141,7 @@ class rocreds extends base {
      * @param string $password The password (with system magic quotes)
      * @return bool Authentication success or failure.
      */
-    public function user_login($username, $password = null) {
+    public function user_login($username, $password = '') {
         global $DB;
 
         $client = $this->get_oidcclient();
