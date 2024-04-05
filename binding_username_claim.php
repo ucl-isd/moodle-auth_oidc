@@ -92,7 +92,8 @@ if ($form->is_cancelled()) {
     }
 }
 
-$existingclaims = auth_oidc_get_existing_claims();
+//$existingclaims = auth_oidc_get_existing_claims();
+$existingclaims = [];
 
 echo $OUTPUT->header();
 
